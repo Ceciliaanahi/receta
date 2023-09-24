@@ -1,0 +1,28 @@
+body {background-color: #FDEDEC;}
+.titulorosa {
+  color: #EC7063;
+  font-size: 60px;
+}
+.tipodeletra {font-family: Segoe script;}
+.letraparrafo {font-family:courier;}
+.wikelrosa {color: #E91E63;}
+.subti2 {font-family: calibri;}
+.centrar {text-align: center;}
+.subrayado {text-decoration-line: underline;}
+.alinearimagen{align:center;}
+.tamañodeletra {font-size: 30px;}
+.imagenwickel{
+    width:500px;
+    height:400px;
+    float: right;
+    }
+.imagensalchialemana {float: left;
+width: 90px;
+height: 90px;
+}
+.letralista {font-family: arial;}
+
+.nav-enlace { text-decoration:none;
+              padding: 10px 30px ;
+             }
+header {background-color: yellow;}
