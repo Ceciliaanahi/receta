@@ -25,8 +25,9 @@ body {background-color: #FDEDEC;}
                       }
 .letralista {font-family: arial;}
 
-.nav-enlace { text-decoration:none;
-              padding: 10px 30px ;
+.nav-enlace { text-decoration: none;
+              float: inherit;
+              padding: 10px 20px;
               background-color: #EC7063;
               color: white;
               font-size: x-large;
