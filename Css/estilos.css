@@ -25,12 +25,21 @@ body {background-color: #FDEDEC;}
                       }
 .letralista {font-family: arial;}
 
-.nav-enlace { text-decoration:none;
-              padding: 10px 30px ;
+.nav-enlace { text-decoration: none;
+              padding: 10px 20px;
+              margin: 10px;
               background-color: #EC7063;
+              border: solid;
+              border-radius: 30px;
               color: white;
               font-size: x-large;
                 }
+nav { display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     width: 100%;
+     }
 
 .instagram {width:90px;
            height:90px;
