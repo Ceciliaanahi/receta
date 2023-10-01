@@ -2,7 +2,8 @@ body {background-color: #FDEDEC;}
 .titulorosa {
   color: #EC7063;
   font-size: 60px;
-}
+  text-align: center;
+             }
 .tipodeletra {font-family: Segoe script;}
 .letraparrafo {font-family:courier;}
 .wikelrosa {color: #E91E63;}
@@ -16,13 +17,66 @@ body {background-color: #FDEDEC;}
     height:400px;
     float: right;
     }
-.imagensalchialemana {float: left;
-width: 90px;
-height: 90px;
-}
+.imagensalchialemana { display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      width: 90px;
+                      height: 90px;
+                      }
 .letralista {font-family: arial;}
 
 .nav-enlace { text-decoration:none;
               padding: 10px 30px ;
-             }
-header {background-color: yellow;}
+              background-color: #EC7063;
+              color: white;
+              font-size: x-large;
+                }
+
+.instagram {width:90px;
+           height:90px;
+           }
+
+.face { width:80px;
+        height:80px;
+         }
+
+.youtube { width:80px;
+        height:80px;
+         }
+
+.whatsapp {width:60px;
+        height:60px;
+      float: right;
+      position: fixed;
+      right: 25px;
+      border-radius:50px;
+      box-shadow: 0px 1px 10px;
+      transition: all 300 ms ease;
+    }
+.whats {width:60px;
+        height:60px;
+      }
+
+header { width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+    }
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px;
+    background-color:#EC7063;
+  }
+
+  .datos {font-family: serif;
+          font-size: 20px;}
