@@ -1,39 +1,41 @@
-body {background-color: #FDEDEC;}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Heebo:wght@500&family=Pixelify+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Heebo:wght@500&family=Inconsolata&family=Pixelify+Sans:wght@400;600&display=swap');
+body {background-color:#FFB7C2;}
+
 .titulorosa {
   color: #EC7063;
-  font-size: 60px;
-  text-align: center;
-             }
-.tipodeletra {font-family: Segoe script;}
-.letraparrafo {font-family:courier;}
+  font-size: 20px;
+  text-align: left;
+     }
+.social {width: 4vw;
+         }
+.letraparrafo {font-family: courier;}
 .wikelrosa {color: #E91E63;}
 .subti2 {font-family: calibri;}
-.centrar {text-align: center;}
 .subrayado {text-decoration-line: underline;}
 .alinearimagen{align:center;}
 .tamañodeletra {font-size: 30px;}
-.imagenwickel{
-    width:500px;
-    height:400px;
-    float: right;
-    }
+.imagenwickel {
+               width:25vw;
+               padding: 10px 20px;
+               margin: 10px;
+               }
 .imagensalchialemana { display: flex;
                       align-items: center;
                       justify-content: center;
-                      width: 90px;
-                      height: 90px;
-                      }
+                      width: 5vw;}
 .letralista {font-family: arial;}
 
 .nav-enlace { text-decoration: none;
               padding: 10px 20px;
               margin: 10px;
-              background-color: #EC7063;
+              background-color: #e6427a;
               border: solid;
               border-radius: 30px;
               color: white;
               font-size: x-large;
-                }
+             }
+
 nav { display: flex;
      align-items: center;
      justify-content: center;
@@ -41,32 +43,26 @@ nav { display: flex;
      width: 100%;
      }
 
-.instagram {width:90px;
-           height:90px;
-           }
-
-.face { width:80px;
-        height:80px;
-         }
-
-.youtube { width:80px;
-        height:80px;
-         }
+main {width:100%;
+     }
 
 .whatsapp {width:60px;
         height:60px;
-      float: right;
-      position: fixed;
-      right: 25px;
-      border-radius:50px;
-      box-shadow: 0px 1px 10px;
-      transition: all 300 ms ease;
-    }
-.whats {width:60px;
-        height:60px;
-      }
-
-header { width: 100%;
+        float: right;
+        position: fixed;
+        right: 25px;
+        border-radius:50px;
+        box-shadow: 0px 1px 10px;
+        transition: all 300 ms ease;
+           }
+aside {width: 100%;
+       }
+section {width: 100%;
+         }
+.mapa {padding: 10px 20px;
+       margin: 10px;
+       }
+header { width: 90%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -74,18 +70,40 @@ header { width: 100%;
     flex-wrap: wrap;
     margin: 10px;
     padding: 20px;
+    background-color: white;
     }
-
+div {width: 20vw;
+     }
 footer {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #fff;
     flex-wrap: wrap;
     margin: 10px;
     padding: 20px;
-    background-color:#EC7063;
+    background-color:#e6427a;
   }
+
+footer:hover{background-color:red;
+            }
 
   .datos {font-family: serif;
           font-size: 20px;}
+
+a:hover {background-color: violet;
+         font-size: 30px;
+         }
+img:hover {width: 600px;
+           }
+iframe:hover{ width: 700px;
+            }
+h1 {font-family: 'Amatic SC', cursive;
+font-family: 'Heebo', sans-serif;
+font-family: 'Pixelify Sans', cursive;
+   }
+nav {font-family: 'Amatic SC', cursive;
+font-family: 'Heebo', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Pixelify Sans', cursive; }
