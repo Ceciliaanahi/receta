@@ -82,9 +82,15 @@ footer {
 
 .datos {font-family: serif;
         width: 25vw;
-        display: block;
         }
-.h3 {font-size: 16px;}
+.h3 {font-size: 16px;
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;}
 
 a:hover {
          box-shadow: inset 500px 0 0 0 #ff4000;
