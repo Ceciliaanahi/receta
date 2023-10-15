@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Heebo:wght@500&family=Pixelify+Sans:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Heebo:wght@500&family=Inconsolata&family=Pixelify+Sans:wght@400;600&display=swap');
+
 body {background-color:#FFB7C2;}
 
 .titulorosa {
@@ -8,7 +9,10 @@ body {background-color:#FFB7C2;}
   text-align: left;
      }
 .social {width: 4vw;
-         }
+        display: flex;
+        justify-content: flex-start;
+        align-items:center;}
+
 .letraparrafo {font-family: courier;}
 .wikelrosa {color: #E91E63;}
 .subti2 {font-family: calibri;}
@@ -21,8 +25,8 @@ body {background-color:#FFB7C2;}
                margin: 10px;
                }
 .imagensalchialemana { display: flex;
-                      align-items: center;
-                      justify-content: center;
+                      align-items: flex-start;
+                      justify-content: space-around;
                       width: 5vw;}
 .letralista {font-family: arial;}
 
@@ -44,30 +48,44 @@ nav { display: flex;
      padding: 25px 0;
      }
 
-main {width:100%;
-     }
+main { width:100%;
+      }
 
-.whatsapp {width:60px;
-        height:60px;
-        float: right;
-        position: fixed;
-        right: 25px;
-        border-radius:50px;
-        box-shadow: 0px 1px 10px;
-        transition: all 300 ms ease;
-        }
-aside {width: 100%;
-       }
-section {width: 100%;
-         }
+.whatsapp { width:60px;
+          height:60px;
+          position: fixed;
+          right: 25px;
+          bottom: 20px;
+          border-radius:50px;
+          box-shadow: 0px 1px 10px;
+          transition: all 300 ms ease;
+          }
+
+aside {width: 90%;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       flex-wrap: wrap;
+       padding: 20px;
+       align-self: flex-end;
+      }
+section {width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;}
+
 .mapa {padding: 10px 20px;
        margin: 10px;
        }
-header { width: 90%;
+header { width: 95%;
     display: flex;
     justify-content:space-between;
     align-items: center;
     flex-wrap: wrap;
+    border: 5px solid white;
+    padding: 10px;
      }
 div {display: block;}
 footer {
@@ -107,3 +125,37 @@ nav {font-family: 'Amatic SC', cursive;
 font-family: 'Heebo', sans-serif;
 font-family: 'Inconsolata', monospace;
 font-family: 'Pixelify Sans', cursive; }
+
+@media (max-width:700px) {
+.objeto1 {
+  display: none;
+ }
+}
+
+@media (min-width:700px) {
+  .objeto2 {
+    display: none;
+  }
+}
+@media (max-width:575px) {
+body {
+  background-color: violet ;
+ }
+}
+
+@media (min-width:575px) {
+  body {
+    background-color: pink ;
+  }
+}
+@media (max-width:900px) {
+.titulorosa {
+         font-size: 30px;
+  }
+}
+
+@media (min-width:900px) {
+  .titulorosa {
+           font-size: 80px;
+  }
+}
