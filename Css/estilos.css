@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Heebo:wght@500&family=Pixelify+Sans:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Heebo:wght@500&family=Inconsolata&family=Pixelify+Sans:wght@400;600&display=swap');
 
+
 body {background-color: #FFB7C2;
       }
 
@@ -16,7 +17,7 @@ body {background-color: #FFB7C2;
 
 .letraparrafo {font-family: courier;}
 .wikelrosa {color: #E91E63;}
-.subti2 {font-family: calibri;}
+.subti2 {font-family: fantasy;}
 .subrayado {text-decoration-line: underline;}
 .alinearimagen{align:center;}
 .tamañodeletra {font-size: 30px;}
@@ -129,6 +130,7 @@ font-family: 'Heebo', sans-serif;
 font-family: 'Inconsolata', monospace;
 font-family: 'Pixelify Sans', cursive; }
 
+
 @media (max-width:700px) {
 .objeto1 {
   display: none;
@@ -177,6 +179,7 @@ body {
       border-color: black;
       height: 500px;
     }
+
 .card-body {text-wrap: wrap;
   text-align: center;
                }
